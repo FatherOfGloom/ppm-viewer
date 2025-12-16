@@ -3,7 +3,7 @@
 set TARGET_NAME=ppm.exe
 set SRC_FILENAMES=main.c 
 set ROOT_FOLDER=C:\Users\khan\dev\ppmviewer\
-set CFLAGS=-Wall -Wextra -pedantic -ggdb -std=c11 -lws2_32
+set CFLAGS=-Wall -Wextra -pedantic -mwindows -ggdb -O3 -std=c11 -lws2_32
 
 setlocal enabledelayedexpansion
 
