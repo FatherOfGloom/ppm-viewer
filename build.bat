@@ -15,6 +15,10 @@ echo %SRC_PATHS%
 
 pushd %ROOT_FOLDER%
 
+if not exist lib (
+    call .\setup_sdl.bat
+)
+
 if not exist bin mkdir bin
 
 if not exist bin\SDL2.dll copy lib\SDL2\bin\SDL2.dll bin\SDL2.dll
