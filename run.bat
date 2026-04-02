@@ -1,7 +1,7 @@
 @echo off
 
 set TARGET_NAME=ppm.exe
-set ROOT_FOLDER=C:\Users\khan\dev\ppmviewer\
+set ROOT_FOLDER=%~dp0
 set CLI_ARGS=%*
 
 pushd %ROOT_FOLDER%

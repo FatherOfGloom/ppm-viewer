@@ -2,7 +2,7 @@
 
 set TARGET_NAME=ppm.exe
 set SRC_FILENAMES=main.c 
-set ROOT_FOLDER=C:\Users\khan\dev\ppmviewer\
+set ROOT_FOLDER=%~dp0
 set CFLAGS=-Wall -Wextra -pedantic -mwindows -ggdb -O3 -std=c11 -lws2_32
 
 setlocal enabledelayedexpansion
@@ -12,7 +12,6 @@ set SRC_PATHS=
 for %%i in (%SRC_FILENAMES%) do (set SRC_PATHS=!SRC_PATHS! %ROOT_FOLDER%src\%%i)
 
 echo %SRC_PATHS%
-echo %LINK_FLAGS%
 
 pushd %ROOT_FOLDER%
 
