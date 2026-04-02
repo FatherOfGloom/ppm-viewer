@@ -2,6 +2,8 @@
 
 A simple image viewer for .ppm files.
 
+![App Screenshot](https://snipboard.io/KOvoPr.jpg)
+
 ## Usage
 
 You can either set the executable as the default program for .ppm file extension, or open them from CLI by providing the path to the file:
